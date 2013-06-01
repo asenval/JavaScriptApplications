@@ -46,7 +46,7 @@ var School = {
     }
 };
 
-var Class = {
+var Course = {
     init: function (name, capacity, students, formTeacher) {
         this.name = name;
         this.capacity = capacity;
@@ -78,9 +78,9 @@ console.log(student2.introduce());
 console.log(teacher1.introduce());
 console.log(teacher2.introduce());
 
-var classA = Object.create(Class);
+var classA = Object.create(Course);
 classA.init("classA", 10, new Array(student1, student2, student3), teacher1);
-var classB = Object.create(Class);
+var classB = Object.create(Course);
 classB.init("classB", 2, new Array(student1, student3), teacher2);
 console.log(classA.introduce());
 console.log(classB.introduce());

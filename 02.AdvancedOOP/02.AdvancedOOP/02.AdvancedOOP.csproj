@@ -19,7 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <JSLintSkip>\scripts\SchoolRepository.js|\scripts\classical-class-create-inherit.js|\scripts\prototype-create-extend.js</JSLintSkip>
+    <JSLintSkip>\scripts\SchoolRepository.js|\scripts\classical-class-create-inherit.js|\scripts\prototype-create-extend.js|\scripts\02.SchoolRepositoryClassical.js</JSLintSkip>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SchoolsClassicalOOP.html" />
     <Content Include="SchoolsPrototypalOOP.html" />
     <Content Include="scripts\classical-class-create-inherit.js" />
     <Content Include="scripts\prototype-create-extend.js" />
@@ -68,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\02.SchoolRepositoryClassical.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
