@@ -71,6 +71,8 @@
             img.setAttribute("title", this.images[id].title);
             img.setAttribute("src", this.images[id].bigUrl);
             img.setAttribute("alt", this.images[id].title);
+            img.style.width = "1050px";
+            img.style.height = "590px";
             var oldImage = document.getElementById("preview-image");
             if (oldImage) {
                 this.preview.removeChild(oldImage);
@@ -124,7 +126,7 @@
             }
             if (side == "right") {
                 button.init("rightButton", side);
-                btn.style.left = "1070px"
+                btn.style.left = "1093px"
                 btn.innerHTML = ">";
             }
 

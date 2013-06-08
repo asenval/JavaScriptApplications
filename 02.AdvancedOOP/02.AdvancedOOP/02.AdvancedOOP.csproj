@@ -19,7 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <JSLintSkip>\scripts\SchoolRepository.js|\scripts\classical-class-create-inherit.js|\scripts\prototype-create-extend.js|\scripts\02.SchoolRepositoryClassical.js|\scripts\03.ImageSlider.js|\scripts\01.SchoolRepository.js</JSLintSkip>
+    <JSLintSkip>\scripts\SchoolRepository.js|\scripts\classical-class-create-inherit.js|\scripts\prototype-create-extend.js|\scripts\02.SchoolRepositoryClassical.js|\scripts\03.ImageSlider.js|\scripts\01.SchoolRepository.js|\scripts\04.FavoriteSiteBar.js</JSLintSkip>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,7 +61,9 @@
     <Content Include="03.ImageSlider.html" />
     <Content Include="02.SchoolsClassicalOOP.html" />
     <Content Include="01.SchoolsPrototypalOOP.html" />
+    <Content Include="04.FavoriteSiteBar.html" />
     <Content Include="scripts\03.ImageSlider.js" />
+    <Content Include="scripts\04.FavoriteSiteBar.js" />
     <Content Include="scripts\classical-class-create-inherit.js" />
     <Content Include="scripts\prototype-create-extend.js" />
     <Content Include="scripts\01.SchoolRepository.js" />
