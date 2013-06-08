@@ -13,7 +13,7 @@ var Student = Class.create({
 	init: function (fname, lname, age, grade) {
 		this._super = new  this._super(arguments);
 		this._super.init(fname, lname, age);
-		this.grade = grade;
+		this.grade = grade;		
 	},
 	introduce: function () {
 		return this._super.introduce() + ", grade: " + this.grade;
