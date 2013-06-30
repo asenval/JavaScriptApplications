@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <JSLintSkip>\scripts\google.js|\scripts\youtube-player.js|\scripts\enlarge-image.js|\scripts\facebook-login.js|\scripts\jquery-2.0.2.js</JSLintSkip>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,7 +58,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="02.GoogleYoutube.html" />
+    <Content Include="03.Facebook.html" />
+    <Content Include="scripts\enlarge-image.js" />
+    <Content Include="scripts\facebook-login.js" />
+    <Content Include="scripts\google.js" />
     <Content Include="OnlineMapTourism.html" />
+    <Content Include="scripts\jquery-2.0.2.js" />
+    <Content Include="scripts\youtube-player.js" />
+    <Content Include="styles\Facebook.css" />
+    <Content Include="styles\GoogleYoutubeStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
